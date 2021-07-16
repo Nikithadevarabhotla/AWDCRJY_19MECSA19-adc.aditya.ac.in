@@ -1,0 +1,24 @@
+import java. util. *;
+class Arraylist
+{
+public static void main(String args[]) 
+{
+Scanner sc=new Scanner(System.in) ;
+System. out. println("enter the element to find") ;
+int ele=sc.nextInt();
+ArrayList<Integer>a=new ArrayList<Integer>();
+a. add(10) ;
+a. add(20) ;
+a. add(30) ;
+a. add(40) ;
+a. add(50) ;
+if(a.contains(ele)) 
+{
+System. out. println("element found") ;
+}
+else
+{
+System. out. println("element not found") ;
+}
+}
+}
