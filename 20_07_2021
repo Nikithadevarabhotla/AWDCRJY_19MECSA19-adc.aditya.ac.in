@@ -1,0 +1,51 @@
+import java. util. *;
+public class Main
+{
+public static void main(String[] args) 
+Scanner sc=new Scanner(System.in);
+Map<Integer,Integer>h=new HashMap<>() ;
+int opt;
+do
+{
+	System.out.primtln("1_adding the keys and values") ;
+System. out. println("2_printing the values of key") ;
+System. out. println("3_printing the size") ;
+System. out. println("4_removing the values of the key") ;
+System. out. println("5_exit") ;
+System. out. println("enter an option") ;
+opt=sc.nextInt() ;
+Switch (opt)
+ {
+ 	case 1:System.out.println("1_adding the keys and values") ;
+ 	int x=sc.nextInt() ;
+ 	System.out.println("enter the values") ;
+ 	int y=sc.nextInt() ;
+ 	h.put(x, y) ;
+ 	break;
+ 	case2:System.out.println("2_printing the values of key") ;
+ 	int k=sc.nextInt() ;
+ 	if(h.containskey(k)) ;
+ 	{
+ 	System.out.printl(h.get(k)) ;+"the values of key") ;
+ }
+ else
+ {
+ 	System.out.println("-1") ;
+ 	}
+ 	break;
+ 	case 3:System.out.println(h.size() ) ;+"size of map") ;
+ 	break;
+ 	case 4:System.out.println("enter the key") ;
+ 	int v=sc.nextIn() ;
+ 	h.remove(v) ;
+ 	break;
+ 	default:System.out.println("invalid option") ;
+ 	}
+ 	}
+ 	while(opt<=5) 
+ 	}
+ 	}
+ 		
+ 	
+ 		
+ 		
